@@ -1,0 +1,82 @@
+body{
+    background-color: black;
+}
+
+.encabezado{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.logo{
+    color: white;
+    margin-left: 20px;
+    margin-right: 800px;
+   
+}
+
+.menu{
+    color: white;
+    margin-left: 20px;
+    
+}
+
+.info{
+    color: white;
+}
+
+section{
+    height: 1200px;
+    width: 100%;
+    background-image: url("1.jpg");
+    
+}
+
+@media screen and (max-width: 600px) {
+    .info {
+      display: none;
+    }
+    .fuente{
+        font-weight: bolder;
+        font-size: 20px;
+    }
+  }
+
+@media only screen and (min-width:600px){
+    .imagen{
+        background-image: url("2.jpg");
+    }
+
+    .fuente{
+        font-size: 50px;
+        padding: 400px;
+    }
+}
+
+@media only screen and(min-width:600px){
+    .imagen{
+        
+        background-image: url("3.jpg");
+    }
+}
+
+@media only screen and(min-width:768px){
+    .imagen{
+        
+        background-image: url("4.jpg");
+    }
+}
+
+@media  only screen and(min-width:992px){
+    .imagen{
+       
+        background-image: url("1.jpg");
+    }
+}
+
+@media  only screen and(min-width:1200px){
+    .imagen{
+       
+        background-image: url("2.jpg");
+    }
+}
+
